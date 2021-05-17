@@ -9,7 +9,7 @@ import { Post } from './model/post.interface';
 export class AppComponent {
   title = 'projeto-um';
 
-  post?: Array<Post>;
+  public post = new Array<Post>();
 
   constructor() { }
 
